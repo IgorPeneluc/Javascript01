@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Comandos</title>
+    <style>
+        body{
+            background-color:aquamarine;
+        }
+        h1{
+            font-family: arial;
+            font-size: 20px;
+        }
+    </style>    
+</head>
+<body>
+    <h1>Comandos Javascript</h1>
+    <script>
+        /*Inserindo janelas de interação*/
+        window.alert('Seja bem-vindo!')
+        window.confirm('Você está gostando?')
+        
+
+        /*Variáveis
+        var x = 12
+        var y = 1.5
+        var z = -30
+
+        var nome = window.prompt('Qual o seu nome?')
+        window.alert('Seja bem-vindo ' + nome)/*
+/*  Pergunta somente inteiros
+        var n1 = Number.parseInt(window.prompt('Digite um número '))
+        var n2 = Number.parseInt(window.prompt('Digite um número '))
+        var soma = n1+n2
+        window.alert('Soma: '+soma)*/
+/*  Pergunta inteiros e decimais
+        var n1 = Number.parseFloat(window.prompt('Digite um número '))
+        var n2 = Number.parseFloat(window.prompt('Digite um número '))
+        var soma = n1+n2
+        window.alert('Soma: '+soma)*/
+
+
+        /*var n1 = Number(window.prompt('Digite um número '))
+        var n2 = Number(window.prompt('Digite um número '))
+        var soma = n1+n2
+        //window.alert('A Soma de '+ n1 + ' e '+n2 +' e igual a '+soma)
+        window.alert(`A soma de ${n1} e ${n2} é ${soma}`)
+*/
+//var nome = window.prompt('Nome: ')
+//document.write(`Seu nome é ${nome} e tem ${nome.length} letras <br>`)
+//document.write(`Maiúsculo: ${nome.toUpperCase()}<br>`)
+//document.write(`Minúsculo: ${nome.toLowerCase()}<br>`)
+
+/*n1 = 1548.1
+document.write(n1+'<br>')
+document.write(n1.toFixed(3)+'<br>')
+document.write(n1.toFixed(3).replace('.',',')+'<br')
+document.write(n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})+"<br>")
+*/
+/*
+n1 = 7
+n2 = 8
+//Pergunta se é diferente
+document.write(n1!=n2)
+//Pergunta se é igual
+document.write(n1==n2)
+// Pergunta se é menor
+document.write(n1<n2)
+// Pergunta se é maior
+document.write(n1>n2)
+//Pergunta se é idêntico
+document.write(n1===n2)
+*/
+
+document.write((n1>n2) && (n1==7)+'<br>')
+document.write((n1>n2) || (n1==7)+'<br>')
+document.write(!(n1>n2) && (n1==7)+'<br>')
+
+
+    </script>
+    
+</body>
+</html>
